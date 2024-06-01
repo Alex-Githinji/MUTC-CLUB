@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(38, 39, 39);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.background{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/* 
+.About-us{
+     display: flex;
+    justify-items: center;
+    align-content: center;
+    border: 2px solid red;
+    width: 30vw;
+
+    padding-right: 50%;
+    margin-bottom: 50%;
+
+
+}
+
+.AboutImg{
+    width: 550px;
+    display: inline;
+    display: block;
+    padding: 4rem;
+    border-radius: 5rem;
+}
+ .AboutImg:hover{
+    text-emphasis-style: 0.5sec;
+ }
+
+.About-us p{
+    border: 10%;
+} */
+
+
+.About-us{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 0 2rem;
+    border-top: 2rem;
+}
+
+.programs{
+    display: flex;
+    gap: 15rem;
+    font-weight: bold;
+    font-size: 3rem;
+    justify-content: center;
+    text-transform: uppercase;
+    color: #686D76;
+    font-style: italic;
+    border-top: 2rem;
+}
+
+.stroke-text{
+    color: transparent;
+    font-family:'Courier New', Courier, monospace;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #686D76;
+    
+}
+
+.About-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 2px;
+}
+
+.mission{
+    font-display: 20px;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.mission-image{
+    width: 400px;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+.mission-title{
+    font-size: 20px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.value-image{
+    width: 400px;
+    height: 50vh;
+    border-radius: 20px;
+    gap: 3rem;
+}
+
+.objective-image{
+    width: 400px;
+    height: 50vh;
+    border-radius: 20px;
+
+}
