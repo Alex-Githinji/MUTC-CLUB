@@ -1,10 +1,9 @@
 import "../home/home.css"
 import { Link } from "react-router-dom";
-
-import bedsitter from "../home/bedsitter.jpg"
-import home from "../home/home.jpg"
-import home1 from "../home/home1.jpg"
-
+import mission from "../home/mission.jpg"
+import Elon  from "../home/Elon.jpg"
+import studio from "../home/studio.jpg"
+import passport from "../home/passport.jpg"
 
 
 
@@ -66,14 +65,55 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">4</div>
                     <div class="description">
-                        <h4>New technologies</h4>
-                        <p>Space engineering becomes
-                         more and more advanced</p>
+                        <h4>Team work</h4>
+                        <p>Working together can lead to success</p>
                     </div>
                 </div>
             </label>
         </div>
     </div>
+
+       </div>
+
+
+       <div className="Testimonies">
+        <div class= "inner">
+            <h1 class="test">Testimonials</h1>
+            <div class= "border"></div>
+
+            <div class="row">
+                <div class = "col">
+                    <div class="testimonial">
+                        <img class="img" src={studio} alt="img" />
+                        <div className="Name">Martha Njeri</div>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+
+                    </div>
+                    <div class="testimonial">
+                        <img class="img" src={Elon} alt="img" />
+                        <div className="Name">Ian Kimani</div>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+
+                    </div>
+                    <div class="testimonial">
+                        <img class="img" src={passport} alt="img" />
+                        <div className="Name">Martha Njeri</div>
+                        
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+        
+            
+        
+
 
        </div>
  </section>
