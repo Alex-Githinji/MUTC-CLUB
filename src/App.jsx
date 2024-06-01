@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Events from "./pages/events/Events"
 
 
+
+
+
 function App() {
   
 
@@ -19,7 +22,8 @@ function App() {
         <Route path="/leaders" element={<Leaders />} />
         <Route path="/Events" element={<Events />} />
       </Routes>
-     
+      {/* <About /> */}
+      
       <body />
      
      

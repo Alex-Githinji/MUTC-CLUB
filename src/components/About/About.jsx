@@ -1,33 +1,14 @@
-import "../home/home.css"
+import "../About/About.css"
 import { Link } from "react-router-dom";
 
-import bedsitter from "../home/bedsitter.jpg"
-import home from "../home/home.jpg"
-import home1 from "../home/home1.jpg"
+// import bedsitter from "../About/bedsitter.jpg"
+// import Home from "./components/About/home.jpg"
+// import home1 from "../About/home1.jpg"
 
 
 
-
-
-const Home = () => {
-    return(
-    <section>
-        <div className="container1">
-            <div className="background">
-            
-                <h1>Welcome to MUT-TEC where Technology and excel is the main goal</h1>
-
-            </div>     
-        </div>
-
-        <div>
-            <div className="About-us">
-                <div className="programs">
-                    
-                    <span className="Stroke-text">About Us</span>
-                   
-                </div>
-             </div>   
+const About = () => {
+    return (
             
         <div class="wrapper">
         <div class="container">
@@ -36,8 +17,9 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">1</div>
                     <div class="description">
-                        <h4>Mission</h4>
-                        <p>The mission of our MUTC-club is to foster a collaborative and inclusive community where students can explore and expand their knowledge of computer science</p>
+                        <h4>Winter</h4>
+                        <p>Winter has so much to offer -
+                         creative activities</p>
                     </div>
                 </div>
             </label>
@@ -46,8 +28,9 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">2</div>
                     <div class="description">
-                        <h4>Values</h4>
-                        <p>The club offers free training to students with the organisation</p>
+                        <h4>Digital Technology</h4>
+                        <p>Gets better every day -
+                         stay tuned</p>
                     </div>
                 </div>
             </label>
@@ -56,8 +39,8 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">3</div>
                     <div class="description">
-                        <h4>objective</h4>
-                        <p>The main objective to see people persue there dream of becoming proble solvers in the field of Technology</p>
+                        <h4>Globalization</h4>
+                        <p>Help people all over the world</p>
                     </div>
                 </div>
             </label>
@@ -75,10 +58,8 @@ const Home = () => {
         </div>
     </div>
 
-       </div>
- </section>
+    
     )
 }
 
-
-export default Home;
+export default About;
