@@ -1,9 +1,16 @@
-.mine{
-   display: flex;
-    align-items: center;
-    gap: 2.5rem;
-}
+.section-header{
+    gap: 3rem;
+    padding: 3rem;
+    border-radius: 20px;
+   box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
+-webkit-box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
+-moz-box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  
 
+
+}
 .Events-container{
     gap: 3rem;
     padding: 3rem;
@@ -11,12 +18,12 @@
    box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
 -webkit-box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
 -moz-box-shadow: 0px 11px 55px 16px rgba(0,0,0,0.54);
- 
+
   width: 40rem;
   background-color: dimgrey;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  gap: 3rem;
+  gap: 4rem; 
 
 }
 
@@ -44,4 +51,21 @@
     font-weight: bold;
     margin-bottom: 0.5rem;
 
+}
+
+@media screen and (max-width: 50rem) {
+    .Events-container{
+        width: 30rem;
+        padding: 2rem;
+        gap: 2rem;
+    }
+    
+}
+
+@media screen and (max-width: 23rem) {
+    .section-header{
+        font-size: 1.5rem;
+        display: flex;
+        align-items: column;
+    }   
 }
