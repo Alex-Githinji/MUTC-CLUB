@@ -14,7 +14,9 @@ const Home = () => {
         <div className="container1">
             <div className="background">
             
-                <h1>Welcome to MUT-TEC where Technology and excel is the main goal</h1>
+                <h1 class="stroke-text"> Welcome to MUT-TEC Club</h1>
+                <p>Where innovation meets creativity</p>
+                <p>where Technology and excel is the main goal</p>
 
             </div>     
         </div>
@@ -23,11 +25,11 @@ const Home = () => {
             <div className="About-us">
                 <div className="programs">
                     
-                    <span className="Stroke-text">About Us</span>
+                    <span class="stroke-text">About Us</span>
                    
                 </div>
              </div>   
-            
+        </div>
         <div class="wrapper">
         <div class="container">
             <input type="radio" name="slide" id="c1" checked></input>
@@ -46,7 +48,7 @@ const Home = () => {
                     <div class="icon">2</div>
                     <div class="description">
                         <h4>Values</h4>
-                        <p>The club offers free training to students with the organisation</p>
+                        <p>The club offers free training to students within the organisation</p>
                     </div>
                 </div>
             </label>
@@ -69,8 +71,8 @@ const Home = () => {
                         <p>Working together can lead to success</p>
                     </div>
                 </div>
-            </label>
-        </div>
+        </label>
+    
     </div>
 
        </div>
@@ -87,21 +89,21 @@ const Home = () => {
                         <img class="img" src={studio} alt="img" />
                         <div className="Name">Martha Njeri</div>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+                        <p>The mentorship program connected me with industry leaders who offered guidance and opened doors to new opportunities. Additionally, the regular workshops and events helped me stay updated with the latest trends and expanded my professional network. Joining the Mut-club was one of the best decisions</p>
 
                     </div>
                     <div class="testimonial">
                         <img class="img" src={Elon} alt="img" />
                         <div className="Name">Ian Kimani</div>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+                        <p>Being a part of the Mut-club Alumni Association has been a transformative experience. The community is incredibly supportive and has provided numerous opportunities for professional development and personal growth</p>
 
                     </div>
                     <div class="testimonial">
                         <img class="img" src={passport} alt="img" />
-                        <div className="Name">Martha Njeri</div>
+                        <div className="Name">Victor Griffin</div>
                         
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste eius rem sequi tempore minus tempora, consequatur quaerat blanditiis accusantium sed magnam! Placeat enim, saepe nam voluptate veritatis repudiandae voluptatem?</p>
+                        <p>Joining the Mut-Club was a pivotal moment in my academic journey, but the benefits truly extended beyond graduation thanks to the Alumni Association. The ongoing professional development opportunities, such as exclusive webinars and industry meetups,</p>
 
                     </div>
 
