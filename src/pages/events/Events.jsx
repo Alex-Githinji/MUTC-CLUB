@@ -4,7 +4,7 @@ import "./events.css"
 
 const Events = () => {
     return(
-        <section>
+      
             <div>
     <div Events-section>
         <Event Eventleader="Webster Ifedha"
@@ -56,7 +56,7 @@ const Events = () => {
     </div>
     
     </div>
-    </section>
+   
 
 
 
