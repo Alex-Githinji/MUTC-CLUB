@@ -1,6 +1,7 @@
 
 const  Track = ({ image, title, description }) => {
     return (
+        <section className="main">
         <div className="tracks"> 
         <div className="track-wrapper">
             <img src={image} alt="" />
@@ -12,6 +13,7 @@ const  Track = ({ image, title, description }) => {
 
         </div>
         </div>
+        </section>
     )
 }
 

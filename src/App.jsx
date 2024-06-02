@@ -4,6 +4,7 @@ import Tracks from "./pages/Tracks/Tracks"
 import Leaders from "./pages/leaders/Leaders"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Events from "./pages/events/Events"
+// import Footer from "./components/Footer"
 
 
 
@@ -25,6 +26,7 @@ function App() {
       {/* <About /> */}
       
       <body />
+      {/* <Footer /> */}
      
      
       </BrowserRouter>

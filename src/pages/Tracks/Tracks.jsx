@@ -10,7 +10,7 @@ import security from "./security.jpg"
 
 const Tracks = () => {
     return(
-    <div>
+    <div className="content">
  <div className="track-section">
     <Track image={cyber1} title="Cyber Security"  description="students who choose the Cyber Security track will delve into the critical aspects of protecting systems, networks, and data from cyber threats. Throughout this track, they will learn about various security protocols, ethical hacking, encryption techniques, and threat analysis. They will engage in hands-on projects and real-world scenarios to apply their knowledge in identifying and mitigating security vulnerabilities. By the end of the track, students will be equipped with the skills to safeguard digital environments, conduct security audits, and implement robust security measures to protect against cyber attacks" />
      
@@ -34,11 +34,42 @@ const Tracks = () => {
  <div className="track-section">
     <Track image={power} title="Power Platform "  description="Students who select the Power Platform track will explore the capabilities of Microsoft's Power Platform, which includes Power BI, Power Apps, Power Automate, and Power Virtual Agents. They will learn how to create custom business applications, automate workflows, analyze data, and build chatbots with minimal coding. Through hands-on projects and interactive workshops, students will gain practical experience in leveraging these tools to enhance business processes and drive data-driven decision-making. By the end of the track, students will be proficient in developing integrated solutions using the Power Platform, enabling them to transform organizational operations and improve efficiency."/>
  </div>
- </div> 
+
  
+ <div class="input-form">
+        <legend>Enter your details here</legend>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name"></input>
 
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="name@gmail.com"></input>
 
+            <label for="course">Course</label>
+            <input type="text" id="course" name="course" placeholder="Web Development"></input>
 
+            <label for="studyYear">Year of Study</label>
+            <input type="text" id="studyYear" name="studyYear" placeholder="3"></input>
+
+            <div class="divdrop">
+                <label for="track">Select your track:</label>
+                <select id="track" name="track">
+                    <option value="">Select a track to major in</option>
+                    <option value="UI/UX design">UI/UX Design</option>
+                    <option value="web development">Web Development</option>
+                    <option value="cyber security">Cyber Security</option>
+                    <option value="power platform">Power Platform</option>
+                    <option value="cloud engineering">Cloud Engineering</option>
+                    <option value="mobile development">Mobile Development</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btnSubmit">Submit</button>
+        </form>
+    </div>
+</div> 
+
+ 
 
 
 
