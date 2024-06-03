@@ -11,7 +11,7 @@ import passport from "../home/passport.jpg"
 const Home = () => {
     return(
     <section>
-        <div className="container1">
+        <div className="container100">
             <div className="background">
             
                 <h1 class="stroke-text"> Welcome to MUT-TEC Club</h1>
@@ -31,16 +31,15 @@ const Home = () => {
              </div>   
         </div>
         
-        <div class="wrapper">
-        <div class="container">
+        <div class="wrapper-home">
+        <div class="container-home">
             <input type="radio" name="slide" id="c1" checked></input>
             <label for="c1" class="card">
                 <div class="row">
                     <div class="icon">1</div>
                     <div class="description">
                         <h4>Mission</h4>
-                        <p>Winter has so much to offer -
-                         creative activities</p>
+                        <p>To create a good enviroment to students who are intrested in learning</p>
                     </div>
                 </div>
             </label>
@@ -50,8 +49,8 @@ const Home = () => {
                     <div class="icon">2</div>
                     <div class="description">
                         <h4>Value</h4>
-                        <p>Gets better every day -
-                         stay tuned</p>
+                        <p>Working together to accomplish a goal
+                         </p>
                     </div>
                 </div>
             </label>
@@ -61,7 +60,7 @@ const Home = () => {
                     <div class="icon">3</div>
                     <div class="description">
                         <h4>Objective</h4>
-                        <p>Help people all over the world</p>
+                        <p>our objective is to make sure that we can offer all servoced need by the students</p>
                     </div>
                 </div>
             </label>
@@ -71,8 +70,8 @@ const Home = () => {
                     <div class="icon">4</div>
                     <div class="description">
                         <h4>Team work</h4>
-                        <p>Space engineering becomes
-                         more and more advanced</p>
+                        <p>working together lead to knowledge and power
+                         </p>
                     </div>
                 </div>
             </label>
