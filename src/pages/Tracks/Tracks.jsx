@@ -35,8 +35,8 @@ const Tracks = () => {
     <Track image={power} title="Power Platform "  description="Students who select the Power Platform track will explore the capabilities of Microsoft's Power Platform, which includes Power BI, Power Apps, Power Automate, and Power Virtual Agents. They will learn how to create custom business applications, automate workflows, analyze data, and build chatbots with minimal coding. Through hands-on projects and interactive workshops, students will gain practical experience in leveraging these tools to enhance business processes and drive data-driven decision-making. By the end of the track, students will be proficient in developing integrated solutions using the Power Platform, enabling them to transform organizational operations and improve efficiency."/>
  </div>
 
- 
- <div class="input-form">
+   <section>
+      <div class="input-form">
         <legend>Enter your details here</legend>
         <div className="contact-info">
         <form action="">
@@ -69,6 +69,8 @@ const Tracks = () => {
         </form>
         </div>
     </div>
+    </section>
+ 
 </div> 
 
  

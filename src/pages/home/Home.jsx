@@ -17,8 +17,8 @@ const Home = () => {
                 <h1 class="stroke-text"> Welcome to MUT-TEC Club</h1>
                 <p>Where innovation meets creativity</p>
                 <p>where Technology and excel is the main goal</p>
-
-            </div>     
+            </div> 
+            <button></button>    
         </div>
 
         <div>
@@ -30,6 +30,7 @@ const Home = () => {
                 </div>
              </div>   
         </div>
+        
         <div class="wrapper">
         <div class="container">
             <input type="radio" name="slide" id="c1" checked></input>
@@ -38,7 +39,8 @@ const Home = () => {
                     <div class="icon">1</div>
                     <div class="description">
                         <h4>Mission</h4>
-                        <p>The mission of our MUTC-club is to foster a collaborative and inclusive community where students can explore and expand their knowledge of computer science</p>
+                        <p>Winter has so much to offer -
+                         creative activities</p>
                     </div>
                 </div>
             </label>
@@ -47,8 +49,9 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">2</div>
                     <div class="description">
-                        <h4>Values</h4>
-                        <p>The club offers free training to students within the organisation</p>
+                        <h4>Value</h4>
+                        <p>Gets better every day -
+                         stay tuned</p>
                     </div>
                 </div>
             </label>
@@ -57,8 +60,8 @@ const Home = () => {
                 <div class="row">
                     <div class="icon">3</div>
                     <div class="description">
-                        <h4>objective</h4>
-                        <p>The main objective to see people persue there dream of becoming proble solvers in the field of Technology</p>
+                        <h4>Objective</h4>
+                        <p>Help people all over the world</p>
                     </div>
                 </div>
             </label>
@@ -68,14 +71,14 @@ const Home = () => {
                     <div class="icon">4</div>
                     <div class="description">
                         <h4>Team work</h4>
-                        <p>Working together can lead to success</p>
+                        <p>Space engineering becomes
+                         more and more advanced</p>
                     </div>
                 </div>
-        </label>
-    
-    </div>
+            </label>
+        </div>
+        </div>
 
-       </div>
 
 
        <div className="Testimonies">

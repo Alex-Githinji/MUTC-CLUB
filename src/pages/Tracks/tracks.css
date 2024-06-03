@@ -3,25 +3,19 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: -2pxpx;
     background-color: #333333;
+    
 
 }
 
 .track-section{
     margin-top: 5rem;
     padding: 0.5rem 1rem;
-    width: 40rem;
+    width: 30rem;
    
   
 
 }
- /* .main{
-    margin-top: 5rem;
-    padding: 0.5rem 2rem;
-    width: 40rem
 
-
-    
-}   */
   
  .track-wrapper{
     height: 30rem;
@@ -36,7 +30,7 @@
 }
 
 .tracks{
-    width: 40rem;
+    width: 10rem;
    
     border-radius: 20px;
     overflow: hidden;

@@ -7,7 +7,7 @@ const Leader = ({image, twitterUrl, fbUrl, igurl ,Fullname, description}) => {
         
            <div className="leader-wrapper">
             <img src={image} alt="" />
-            {/* <p className="social-media">{twitterUrl}, {fbUrl}, {igurl}</p> */}
+            <p className="social-media">{twitterUrl}, {fbUrl}, {igurl}</p>
             </div>
            <div className="leader-body">
 
