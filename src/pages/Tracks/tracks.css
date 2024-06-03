@@ -51,12 +51,16 @@
     margin-inline-start: 1.5rem;
     text-transform: uppercase;
     text-align: center;
+    color: white;
+
 
 }
 
 .track-body  p{
     text-align: justify;
     line-height: 1.8 ;
+    color: white;
+    
 }
 
 

@@ -38,18 +38,19 @@ const Tracks = () => {
  
  <div class="input-form">
         <legend>Enter your details here</legend>
+        <div className="contact-info">
         <form action="">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Name"></input>
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" className="name" placeholder="Name"></input>
 
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="name@gmail.com"></input>
+            <input type="email" id="email" className="name" placeholder="name@gmail.com"></input>
 
-            <label for="course">Course</label>
-            <input type="text" id="course" name="course" placeholder="Web Development"></input>
+            <label htmlFor="course">Course</label>
+            <input type="text" id="course" className="name" placeholder="Web Development"></input>
 
-            <label for="studyYear">Year of Study</label>
-            <input type="text" id="studyYear" name="studyYear" placeholder="3"></input>
+            <label htmlFor="studyYear">Year of Study</label>
+            <input type="text" id="studyYear" className="name" placeholder="3"></input>
 
             <div class="divdrop">
                 <label for="track">Select your track:</label>
@@ -66,6 +67,7 @@ const Tracks = () => {
 
             <button type="submit" class="btnSubmit">Submit</button>
         </form>
+        </div>
     </div>
 </div> 
 
