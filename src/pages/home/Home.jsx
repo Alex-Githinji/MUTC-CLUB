@@ -13,12 +13,11 @@ const Home = () => {
     <section>
         <div className="container100">
             <div className="background">
-            
                 <h1 class="stroke-text"> Welcome to MUT-TEC Club</h1>
                 <p>Where innovation meets creativity</p>
                 <p>where Technology and excel is the main goal</p>
             </div> 
-            <button></button>    
+           
         </div>
 
         <div>
@@ -32,7 +31,7 @@ const Home = () => {
         </div>
         
         <div class="wrapper-home">
-        <div class="container-home">
+          <div class="container-home">
             <input type="radio" name="slide" id="c1" checked></input>
             <label for="c1" class="card">
                 <div class="row">
@@ -76,8 +75,7 @@ const Home = () => {
                 </div>
             </label>
         </div>
-        </div>
-
+        </div> 
 
 
        <div className="Testimonies">

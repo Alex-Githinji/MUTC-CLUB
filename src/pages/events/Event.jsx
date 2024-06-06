@@ -1,4 +1,4 @@
-const Event = ({Eventleader, EventName,EventTime, EventPlace}) => {
+const Event = ({Eventleader, EventName,EventTime, EventPlace, BookSession}) => {
     return(
           <div className="Events-container">
             <div className="Event-header">
@@ -8,6 +8,7 @@ const Event = ({Eventleader, EventName,EventTime, EventPlace}) => {
             <div className="Event-body">
                 <p>{EventTime}</p>
                 <p>{EventPlace}</p>
+                <button>{BookSession}</button>
                 
             </div>
 
